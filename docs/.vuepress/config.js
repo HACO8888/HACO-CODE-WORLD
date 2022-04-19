@@ -101,6 +101,10 @@ module.exports = {
                         text: '安裝配置環境',
                         link: '/discord/bot/py/install.html',
                         },
+                        {
+                          text: '開始寫機器人',
+                          link: '/discord/bot/py/coding.html',
+                        },
                       ],
                     },
                   ],
