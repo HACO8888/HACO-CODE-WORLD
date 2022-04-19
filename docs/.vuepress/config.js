@@ -2,6 +2,7 @@ const { description } = require('../../package')
 
 module.exports = {
     head: [
+      ["script", {async: true, src:"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4876997759423975", crossorigin:"anonymous"},],
       ["script",{src: "https://www.googletagmanager.com/gtag/js?id=UA-168383599-1",async: true},],
       ["script",{},`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-226106548-1');`],
       ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
@@ -149,7 +150,11 @@ module.exports = {
         '@vuepress/google-analytics',
         {
           'ga': 'UA-226106548-1'
-        }
+        },
+        'vuepress-plugin-google-adsense2',
+        {
+          id: 'ca-pub-4876997759423975',
+        },
       ]
     ]
   }
