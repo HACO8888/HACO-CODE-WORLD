@@ -1,0 +1,22 @@
+# 建立基礎環境
+
+## 必備軟體安裝
+
+Node.js 版本 v16.0.0 以上 [點我前往下載](https://nodejs.org/zh-tw/download/)
+
+編輯器 (推薦 Visual Studio Code) [點我前往下載](https://code.visualstudio.com/#alt-downloads)
+
+## 進行配置以及安裝
+
+1. 建立一個資料夾 (取名:建議英文)
+
+
+2. 開啟CMD並輸入 `cd 資料夾路徑` OR **直接在建立好的資料夾開啟CMD**
+
+<img src="/CMD.png" />
+<br>
+<img src="/CMD-CD.png" />
+
+3. 輸入 `npm i discord.js` 來安裝最新的discord.js
+
+4. 新增 `index.js` 檔案在資料夾中

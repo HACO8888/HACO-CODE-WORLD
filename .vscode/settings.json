@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/.git": false
+    },
+    "git.ignoreLimitWarning": true,
+    "cSpell.words": [
+        "HACO"
+    ]
+}
