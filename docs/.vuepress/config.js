@@ -2,23 +2,9 @@ const { description } = require('../../package')
 
 module.exports = {
     head: [
-      [
-        "script",
-        {
-          src: "https://www.googletagmanager.com/gtag/js?id=UA-168383599-1",
-          async: true
-        }
-      ],
-      [
-        "script",
-        {},
-        `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-226106548-1');
-        `
-      ],
+      ["script",{src: "https://www.googletagmanager.com/gtag/js?id=UA-168383599-1",async: true},],
+      ["script",{},`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-226106548-1');`],
+      ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
     ],
     lang: 'zh-TW',
     theme: '@vuepress/theme-default',
@@ -36,14 +22,20 @@ module.exports = {
     },
     themeConfig: {
       darkMode: true,
-      editLink: false,
-      lastUpdated: false,
-      contributors: false,
+      // editLink: false,
+      // lastUpdated: false,
+      // contributors: false,
       logo: '/HACO-LOGO.png',
-      // repo: 'https://github.com/MRHACO/',
+      repo: "MRHACO/HACO-CODE-WORLD",
+      docsRepo: 'MRHACO/HACO-CODE-WORLD',
+      docsBranch: 'master',
+      docsDir: 'docs',
+      editLinkPattern: ':repo/edit/:branch/:path',
       locales: {
         "/": {
+          "editLinkText": "編輯頁面",
           "backToHome": "帶我回首頁",
+          "contributorsText": "編輯者",
           "lastUpdatedText": "上次更新",
           "selectLanguageName": "繁體中文",
           "selectLanguageText": "選擇語言",
@@ -80,9 +72,6 @@ module.exports = {
             {
               text: 'Discord',
               link: '/discord/',
-              collapsable: true,
-              initialOpenGroupIndex: -1,
-              sidebarDepth: 1,
               children: [
                 {
                   text: '創建伺服器',
