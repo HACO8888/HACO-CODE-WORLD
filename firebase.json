@@ -1,6 +1,14 @@
 {
-    "hosting": {
-      "public": "./docs/.vuepress/dist",
-      "ignore": []
-    }
-   }
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/.vscode/**",
+      "**/.git/**",
+      "**/.temp/**",
+      "**/.cache/**"
+    ]
+  }
+}
