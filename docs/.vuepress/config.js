@@ -26,7 +26,7 @@ module.exports = {
       // lastUpdated: false,
       // contributors: false,
       logo: '/HACO-LOGO.png',
-      repo: "MRHACO/HACO-CODE-WORLD",
+      // repo: "MRHACO/HACO-CODE-WORLD",
       docsRepo: 'MRHACO/HACO-CODE-WORLD',
       docsBranch: 'master',
       docsDir: 'docs',
