@@ -61,6 +61,10 @@ module.exports = {
             //   activeMatch: '^/log/',
             // },
             {
+              text: '隱私權政策',
+              link: '/privacy-and-policy.html',
+            },
+            {
               text: 'Discord',
               link: 'https://discord.gg/RtsckgRjqJ',
             },
