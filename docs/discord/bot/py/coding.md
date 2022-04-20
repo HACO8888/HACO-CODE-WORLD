@@ -5,7 +5,7 @@
 2. 輸入下列代碼 並將 機器人Token 輸入進第6行的 `""` 內
 ```py
 import discord
-from discord.py import commands
+from discord.ext import commands
 
 client = commands.Bot(command_prefix='t!', intents=discord.Intents.all())
 
@@ -15,7 +15,7 @@ TOKEN = ""
 async def on_ready():
     print('BOT READY')
     
-@client.commands()
+@client.command()
 async def ping(ctx):
     await ctx.send("Pong")
 
