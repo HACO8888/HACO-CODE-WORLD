@@ -26,7 +26,7 @@ footer: Made by MR.HACO with ❤️
 
 <br>
 
-<h2 align="center">🔧 Codeing Tool🔧</h2>
+<h2 align="center">🔧 Coding Tool🔧</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a"/>
