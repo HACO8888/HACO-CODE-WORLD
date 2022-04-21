@@ -52,7 +52,7 @@ module.exports = {
           "navbar": [
             {
               text: 'Discord教學',
-              link: '/discord/guild',
+              link: '/discord/guild/',
               activeMatch: '^/discord/',
             },
             // {
