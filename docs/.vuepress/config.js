@@ -15,11 +15,11 @@ module.exports = {
         title: 'HACO的程式世界',
         description: '以中文的方式教您各種有趣好玩的程式語言，教會所有初學者',
       },
-      '/en': {
-        lang: 'en-US',
-        title: 'HACO\'s Code World',
-        description: 'Let Haco teach u many code language',
-      },
+      // '/en': {
+      //   lang: 'en-US',
+      //   title: 'HACO\'s Code World',
+      //   description: 'Let Haco teach u many code language',
+      // },
     },
     themeConfig: {
       darkMode: true,
@@ -117,40 +117,40 @@ module.exports = {
             },
           ],
         },
-        "/en": {
-          "backToHome": "Take me home",
-          "selectLanguageName": "English",
-          "selectLanguageText": "Language",
-          "lastUpdatedText": "Last Updated",
-          "toggleSidebar": "toggle sidebar",
-          "toggleDarkMode": "toggle dark mode",
-          "openInNewWindow": "open in new window",
-          "notFound": [
-            "There's nothing here.",
-            "How did we get here?",
-            "That's a Four-Oh-Four.",
-            "Looks like we've got some broken links."
-          ],
-          "navbar": [
+        // "/en": {
+        //   "backToHome": "Take me home",
+        //   "selectLanguageName": "English",
+        //   "selectLanguageText": "Language",
+        //   "lastUpdatedText": "Last Updated",
+        //   "toggleSidebar": "toggle sidebar",
+        //   "toggleDarkMode": "toggle dark mode",
+        //   "openInNewWindow": "open in new window",
+        //   "notFound": [
+        //     "There's nothing here.",
+        //     "How did we get here?",
+        //     "That's a Four-Oh-Four.",
+        //     "Looks like we've got some broken links."
+        //   ],
+        //   "navbar": [
 
-            {
-              text: 'Discord Teaching',
-              link: '/en/discord/'
-            },
-            // {
-            //   text: 'Update Log',
-            //   link: '/en/log/'
-            // },
-            {
-              text: 'Discord',
-              link: 'https://discord.gg/RtsckgRjqJ',
-            },
-            {
-              text: 'Github',
-              link: 'https://github.com/MRHACO/',
-            }
-          ],
-        }
+        //     // {
+        //     //   text: 'Discord Teaching',
+        //     //   link: '/en/discord/'
+        //     // },
+        //     // {
+        //     //   text: 'Update Log',
+        //     //   link: '/en/log/'
+        //     // },
+        //     {
+        //       text: 'Discord',
+        //       link: 'https://discord.gg/RtsckgRjqJ',
+        //     },
+        //     {
+        //       text: 'Github',
+        //       link: 'https://github.com/MRHACO/',
+        //     }
+        //   ],
+        // }
       },
     },
     plugins: [
