@@ -92,8 +92,12 @@ module.exports = {
                       link: '/discord/bot/js',
                       children: [
                         {
-                        text: '安裝配置環境',
-                        link: '/discord/bot/js/install.html',
+                          text: '安裝配置環境',
+                          link: '/discord/bot/js/install.html',
+                        },
+                        {
+                          text: '開始寫機器人',
+                          link: '/discord/bot/js/coding.html',
                         },
                       ],
                     },
@@ -102,8 +106,8 @@ module.exports = {
                       link: '/discord/bot/py',
                       children: [
                         {
-                        text: '安裝配置環境',
-                        link: '/discord/bot/py/install.html',
+                          text: '安裝配置環境',
+                          link: '/discord/bot/py/install.html',
                         },
                         {
                           text: '開始寫機器人',
