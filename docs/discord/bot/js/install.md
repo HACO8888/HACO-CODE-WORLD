@@ -47,13 +47,13 @@ Node.js 版本 v16.0.0 以上 [點我前往下載](https://nodejs.org/zh-tw/down
 
 2. 在資料夾內開啟 `CMD` 或 `PowerShell`
 
-::: tip
+::: tip 小提示
 在資料夾內點擊右鍵可開啟選單
 :::
 <img src="/install/ijs-9.png" />
 
 3. 選擇習慣性使用安裝代碼安裝最新版的discord.js
-::: warning
+::: warning 小建議
 因後續使用NPM較為方便，建議使用NPM安裝
 :::
 <CodeGroup>
