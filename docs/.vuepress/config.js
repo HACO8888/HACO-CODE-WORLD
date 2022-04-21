@@ -76,7 +76,7 @@ module.exports = {
           sidebar: [
             {
               text: 'Discord',
-              link: '/discord/',
+              link: '',
               children: [
                 {
                   text: '創建伺服器',
