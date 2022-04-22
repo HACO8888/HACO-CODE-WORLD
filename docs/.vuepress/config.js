@@ -22,7 +22,7 @@ module.exports = {
       // },
     },
     themeConfig: {
-      // darkMode: true,
+      darkMode: true,
       lightMode: false,
       // editLink: false,
       // lastUpdated: false,
