@@ -38,23 +38,27 @@
 
 <img src="/createbot/crebot-8.png" />
 
-10. 點選 `Oauth2` 再點選 `Url Generator` 之後勾選先 `bot` 點勾選 ` Administrator` (可以自行選擇機器人權限,這裡以管理員做示範)
+10. 往下滑 將紅框內的三個選項打開
+
+<img src="/createbot/crebot-8-1.png" />
+
+11. 點選 `Oauth2` 再點選 `Url Generator` 之後勾選先 `bot` 點勾選 ` Administrator` (可以自行選擇機器人權限,這裡以管理員做示範)
 
 <img src="/createbot/crebot-9.png" />
 
-11. 勾選完後 滑到最下面 點選 `Copy` (一樣會出現綠底的`Copied`)
+12. 勾選完後 滑到最下面 點選 `Copy` (一樣會出現綠底的`Copied`)
 
 <img src="/createbot/crebot-10.png" />
 
-12. 輸入剛剛複製的網址來邀請機器人 先選擇你要邀請的伺服器 之後點選 `繼續`
+13. 輸入剛剛複製的網址來邀請機器人 先選擇你要邀請的伺服器 之後點選 `繼續`
 
 <img src="/createbot/crebot-11.png" />
 
-13. 點選 `授權`
+14. 點選 `授權`
 
 <img src="/createbot/crebot-12.png" />
 
-14. 邀請成功!
+15. 邀請成功!
 
 <img src="/createbot/crebot-13.png" />
 
