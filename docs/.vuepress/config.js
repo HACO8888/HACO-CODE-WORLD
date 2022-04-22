@@ -52,9 +52,20 @@ module.exports = {
           ],
           "navbar": [
             {
-              text: 'Discord教學',
-              link: '/discord/bot/',
-              activeMatch: '^/discord/',
+              text: '各類教學',
+              link: '',
+              children: [
+                {
+                  text: 'Discord教學',
+                  link: '/discord/bot/',
+                  activeMatch: '^/discord/',
+                },
+                // {
+                //   text: '網站製作教學',
+                //   link: '/web/',
+                //   activeMatch: '^/web/',
+                // },
+              ]
             },
             {
               text: '更新紀錄',
@@ -124,6 +135,11 @@ module.exports = {
                   ],
                 },
               ],
+            },
+            {
+              text: '網站製作',
+              link: '', //web
+              children: []
             },
           ],
         },
