@@ -29,13 +29,13 @@ footer: Made by MR.HACO with ❤️
 <h2 align="center">🔧 Coding Tool🔧</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a"/>
-  <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a"/>
-  <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a"/>
-  <img src="https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=PHP&logoColor=white&color=2bbc8a"/>
-  <img src="https://img.shields.io/badge/Code-Vue-informational?style=flat&logo=vue.js&logoColor=white&color=2bbc8a"/>
-  <img src="https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a"/>
-  <img src="https://img.shields.io/badge/Cloud-Replit-informational?style=flat&logo=replit&logoColor=white&color=2bbc8a"/>
+  <img src="https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a"/>&ensp;
+  <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a"/>&ensp;
+  <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a"/>&ensp;
+  <img src="https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=PHP&logoColor=white&color=2bbc8a"/>&ensp;
+  <img src="https://img.shields.io/badge/Code-Vue-informational?style=flat&logo=vue.js&logoColor=white&color=2bbc8a"/>&ensp;
+  <img src="https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a"/>&ensp;
+  <img src="https://img.shields.io/badge/Cloud-Replit-informational?style=flat&logo=replit&logoColor=white&color=2bbc8a"/>&ensp;
 </p>
 
 <br>
