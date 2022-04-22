@@ -11,6 +11,7 @@
     "deploy": "firebase deploy"
   },
   "devDependencies": {
+    "@snippetors/vuepress-plugin-code-copy": "^1.1.2",
     "@vue/component-compiler-utils": "^3.3.0",
     "@vue/composition-api": "^1.4.9",
     "@vuepress/bundler-vite": "^2.0.0-beta.39",

@@ -1312,6 +1312,11 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
+"@snippetors/vuepress-plugin-code-copy@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@snippetors/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.1.2.tgz#66ad0689ed83bf17736dafd7e4f0bb087e25ef5b"
+  integrity sha512-vkF/zcPtLDytoEfmcm+2HTEaQClR7XqfEfOZD2EiLYdfB59bxcmPU6FXdxMJgcwVh+ZU0m4v+j9PVaXnIdcnyQ==
+
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz#ee34985952ca21558ab0d952f00298ad2190c053"

@@ -22,7 +22,8 @@ module.exports = {
       // },
     },
     themeConfig: {
-      darkMode: true,
+      // darkMode: true,
+      lightMode: false,
       // editLink: false,
       // lastUpdated: false,
       // contributors: false,
@@ -52,14 +53,14 @@ module.exports = {
           "navbar": [
             {
               text: 'Discord教學',
-              link: '/discord/guild/',
+              link: '/discord/bot/',
               activeMatch: '^/discord/',
             },
-            // {
-            //   text: '更新紀錄',
-            //   link: '/log/',
-            //   activeMatch: '^/log/',
-            // },
+            {
+              text: '更新紀錄',
+              link: '/log/',
+              activeMatch: '^/log/',
+            },
             {
               text: '隱私權政策',
               link: '/privacy-and-policy.html',
@@ -75,14 +76,19 @@ module.exports = {
           ],
           sidebar: [
             {
+              text: '更新紀錄',
+              link: '/log/',
+              children: []
+            },
+            {
               text: 'Discord',
               link: '',
               children: [
-                {
-                  text: '創建伺服器',
-                  link: '/discord/guild/',
-                  children: [],
-                },
+                // {
+                //   text: '創建伺服器',
+                //   link: '/discord/guild/',
+                //   children: [],
+                // },
                 {
                   text: '製作機器人',
                   link: '/discord/bot/',
@@ -163,10 +169,15 @@ module.exports = {
         {
           'ga': 'UA-226106548-1'
         },
-        'vuepress-plugin-google-adsense2',
-        {
-          id: 'ca-pub-4876997759423975',
-        },
-      ]
+      ],
+      // [
+      //   'vuepress-plugin-google-adsense2',
+      //   {
+      //     id: 'ca-pub-4876997759423975',
+      //   },
+      // ],
+      [
+        "@snippetors/vuepress-plugin-code-copy",
+      ],
     ]
   }
