@@ -63,6 +63,9 @@ client.login(TOKEN);
 ```
 
 3. 在檔案的那個資料夾開啟 `CMD` 或 `PowerShell` 並運行剛剛寫好的檔案
+::: tip 小提示
+如果會使用VSCode內建的終端也可以使用
+:::
 
 ```bash:no-line-numbers
 node index
