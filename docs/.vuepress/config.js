@@ -2,10 +2,36 @@ const { description } = require('../../package')
 
 module.exports = {
     head: [
-      ["script", {async: true, src:"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4876997759423975", crossorigin:"anonymous"},],
+      //LINKS
+      ['link', { rel: "stylesheet", href: "/css/emoji.css" }],
+      ['link', { rel: 'icon', href: '/favicon.png' }],
+      //SCRIPTS
+      ["script", { async: true, src:"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4876997759423975", crossorigin:"anonymous" },],
       ["script",{src: "https://www.googletagmanager.com/gtag/js?id=UA-168383599-1",async: true},],
-      ["script",{},`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-226106548-1');`],
-      ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
+      ["script", { src:"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" },],
+      //MAIN TAGS
+      ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+      ['meta', { charset: 'utf-8' }],
+      ['meta', { name: 'target', content: 'all' }],
+      ['meta', { name: 'owner', content: 'HACO的程式世界' }],
+      ['meta', { name: 'copyright', content: 'HACO的程式世界' }],
+      ['meta', { name: 'designer', content: 'MR.HACO#8888' }],
+      ['meta', { name: 'publisher', content: 'MR.HACO#8888' }],
+      ['meta', { name: 'reply-to', content: 'support@haco.tw' }],
+      ['meta', { name: 'url', content: 'https://www.haco.tw/' }],
+      ['meta', { name: 'author', content: 'MR.HACO#8888, jasonytonlinecomeandsee@gmail.com' }],
+      ['meta', { name: 'keywords', content: 'Code Discord DiscordBot Bot Discord.js Discord.py' }],
+      //TWITTER CARD
+      ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+      ['meta', { name: 'twitter:card', content: 'summary' }],
+      //OG TAGS
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:locale', content: 'zh_TW' }],
+      ['meta', { property: 'og:title', content: 'HACO的程式世界' }],
+      ['meta', { property: 'og:site_name', content: 'HACO的程式世界' }],
+      ['meta', { property: 'og:image', content: '/meta-image.png' }],
+      ['meta', { property: 'og:url', content: 'https://www.haco.tw/' }],
+      ['meta', { property: 'og:description', content: '以中文的方式教您各種有趣好玩的程式語言，教會所有初學者' }],
     ],
     lang: 'zh-TW',
     theme: '@vuepress/theme-default',
@@ -15,18 +41,11 @@ module.exports = {
         title: 'HACO的程式世界',
         description: '以中文的方式教您各種有趣好玩的程式語言，教會所有初學者',
       },
-      // '/en': {
-      //   lang: 'en-US',
-      //   title: 'HACO\'s Code World',
-      //   description: 'Let Haco teach u many code language',
-      // },
     },
     themeConfig: {
-      darkMode: true,
-      lightMode: false,
-      // editLink: false,
-      // lastUpdated: false,
-      // contributors: false,
+      editLink: true,
+      lastUpdated: true,
+      contributors: true,
       logo: '/HACO-LOGO.png',
       // repo: "MRHACO/HACO-CODE-WORLD",
       docsRepo: 'MRHACO/HACO-CODE-WORLD',
@@ -143,55 +162,9 @@ module.exports = {
             },
           ],
         },
-        // "/en": {
-        //   "backToHome": "Take me home",
-        //   "selectLanguageName": "English",
-        //   "selectLanguageText": "Language",
-        //   "lastUpdatedText": "Last Updated",
-        //   "toggleSidebar": "toggle sidebar",
-        //   "toggleDarkMode": "toggle dark mode",
-        //   "openInNewWindow": "open in new window",
-        //   "notFound": [
-        //     "There's nothing here.",
-        //     "How did we get here?",
-        //     "That's a Four-Oh-Four.",
-        //     "Looks like we've got some broken links."
-        //   ],
-        //   "navbar": [
-
-        //     // {
-        //     //   text: 'Discord Teaching',
-        //     //   link: '/en/discord/'
-        //     // },
-        //     // {
-        //     //   text: 'Update Log',
-        //     //   link: '/en/log/'
-        //     // },
-        //     {
-        //       text: 'Discord',
-        //       link: 'https://discord.gg/RtsckgRjqJ',
-        //     },
-        //     {
-        //       text: 'Github',
-        //       link: 'https://github.com/MRHACO/',
-        //     }
-        //   ],
-        // }
       },
     },
     plugins: [
-      [
-        '@vuepress/google-analytics',
-        {
-          'ga': 'UA-226106548-1'
-        },
-      ],
-      // [
-      //   'vuepress-plugin-google-adsense2',
-      //   {
-      //     id: 'ca-pub-4876997759423975',
-      //   },
-      // ],
       [
         "@snippetors/vuepress-plugin-code-copy",
       ],

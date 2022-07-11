@@ -1,0 +1,14 @@
+.emoji-container {
+	display: inline-block;
+}
+
+.emoji-container .emoji-image {
+	width: 1.375rem;
+	height: 1.375rem;
+	vertical-align: bottom;
+}
+
+.emoji-container .line{
+    width: 1.375rem;
+	vertical-align: middle;
+}
