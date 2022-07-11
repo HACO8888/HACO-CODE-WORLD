@@ -1,6 +1,16 @@
 {
     "files.exclude": {
-        "**/.git": false
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/LICENSE": true,
+        "**/.yarnrc.yml": true,
+        "**/.npmrc": true,
+        "**/.gitattributes": true,
+        "**/.gitignore": true,
+        "**/firebase.json": true,
+        "**/.firebaserc": true,
+        "**/yarn.lock": true,
+        "**/package.json": true,
     },
     "git.ignoreLimitWarning": true,
     "cSpell.words": [
