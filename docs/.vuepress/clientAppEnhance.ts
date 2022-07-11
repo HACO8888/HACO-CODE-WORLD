@@ -15,6 +15,7 @@ import {
 	install as DiscordMessageComponents,
 } from '@discord-message-components/vue';
 import DocsLink from './components/DocsLink.vue';
+import HacosAvatar from './assets/avatar-haco.png';
 import ResultingCode from './components/ResultingCode.vue';
 import djsAvatar from './assets/discord-avatar-djs.png';
 import '@discord-message-components/vue/dist/style.css';
@@ -22,16 +23,23 @@ import '@discord-message-components/vue/dist/style.css';
 export default defineClientAppEnhance(({ app }) => {
 	app.use(DiscordMessageComponents, {
 		avatars: {
+			haco: HacosAvatar,
 			djs: djsAvatar,
 		},
 		profiles: {
-			user: {
-				author: 'User',
+			haco: {
+				author: 'MR.HACO',
+				avatar: 'haco',
+				roleColor: "white",
+			},
+			djs: {
+				author: 'Discord.js',
 				avatar: 'djs',
+				roleColor: "white",
 			},
 			bot: {
-				author: 'Guide Bot',
-				avatar: 'green',
+				author: '教學用',
+				avatar: 'blue',
 				bot: true,
 			},
 		},

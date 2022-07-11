@@ -18,24 +18,9 @@ const TOKEN = "" //輸入機器人TOKEN
 const PREFIX = "t!" //修改為要的Prefix
 
 const client = new Client({
-  intents: [
-    Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_MEMBERS,
-    Intents.FLAGS.GUILD_BANS,
-    Intents.FLAGS.GUILD_INTEGRATIONS,
-    Intents.FLAGS.GUILD_WEBHOOKS,
-    Intents.FLAGS.GUILD_INVITES,
-    Intents.FLAGS.GUILD_VOICE_STATES,
-    Intents.FLAGS.GUILD_PRESENCES,
-    Intents.FLAGS.GUILD_MESSAGES,
-    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
-    Intents.FLAGS.GUILD_MESSAGE_TYPING,
-    Intents.FLAGS.DIRECT_MESSAGES,
-    Intents.FLAGS.DIRECT_MESSAGE_REACTIONS,
-    Intents.FLAGS.DIRECT_MESSAGE_TYPING,
-  ],
-	partials: ['MESSAGE', 'CHANNEL', 'REACTION', "USER"],
-	allowedMentions: { parse: ["roles", "users"], repliedUser: false },
+    intents: new Intents(32767),
+    partials: ['MESSAGE', 'CHANNEL', 'REACTION', "USER"],
+    allowedMentions: { parse: ["roles", "users"], repliedUser: false },
 });
 
 
@@ -54,7 +39,7 @@ client.on('messageCreate', (message) => {
 		return;
 	}
     if (message.content === PREFIX + "ping") {
-        message.reply("Pong")
+        message.channel.send("Pong")
     }
 });
 
@@ -70,27 +55,20 @@ client.login(TOKEN);
 node index
 ```
 
-4. 來看結果
+4. 來看結果，會獲得類似下圖的結果
 
 <img src="/code/js/codejs-1.png" />
 <br>
-<img src="/code/js/codejs-2.png" />
+<!-- <img src="/code/js/codejs-2.png" /> -->
 <DiscordMessages>
-    <DiscordMessage profile="haco" timestamp="05/17/2022">
-        <DiscordMention :highlight="false" >創始人｜ potol光頭</DiscordMention><br>
-        這次的更新內容是什麼？
+    <DiscordMessage profile="haco" timestamp="2000/10/10">
+        t!ping
     </DiscordMessage>
-	<DiscordMessage profile="potol" timestamp="05/17/2022">
-        <DiscordMention :highlight="true">everyone</DiscordMention> 修復更新 5/15 
-        <span class="emoji-container">
-            <img class="emoji-image" src="https://cdn.discordapp.com/emojis/962554958157344808.gif?size=44&quality=lossless" />
-            <img class="emoji-image" src="https://cdn.discordapp.com/emojis/962554966927638630.gif?size=44&quality=lossless" />
-        </span>
-        <br>
-        <br>
-        1.修復公職招聘員工系統問題
-        <br>
-        2.微調一些伺服器物品等等
+	<DiscordMessage profile="bot" timestamp="2000/10/10">
+        <!-- <template #interactions>
+			<DiscordInteraction profile="haco" :command="true">t!ping</DiscordInteraction>
+		</template> -->
+        Pong
     </DiscordMessage>
 </DiscordMessages>
 
