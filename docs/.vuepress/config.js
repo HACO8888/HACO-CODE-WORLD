@@ -164,9 +164,4 @@ module.exports = {
         },
       },
     },
-    plugins: [
-      [
-        "@snippetors/vuepress-plugin-code-copy",
-      ],
-    ]
   }
