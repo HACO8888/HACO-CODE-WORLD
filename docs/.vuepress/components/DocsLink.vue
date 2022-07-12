@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 
-const baseURL = 'https://play.haco.tw/';
+const baseURL = 'https://www.haco.tw/';
 const docsSections = ['main', 'collection', 'rpc'];
 const docsPathRegex = /\w+\/(\w+)(?:\?scrollTo=(.+))?/;
 
