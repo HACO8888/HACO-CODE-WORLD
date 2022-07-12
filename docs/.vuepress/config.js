@@ -1,5 +1,3 @@
-const { description } = require('../../package')
-
 module.exports = {
     head: [
       //LINKS
