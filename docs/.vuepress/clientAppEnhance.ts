@@ -18,6 +18,7 @@ import DocsLink from './components/DocsLink.vue';
 import HacosAvatar from './assets/avatar-haco.png';
 import ResultingCode from './components/ResultingCode.vue';
 import djsAvatar from './assets/discord-avatar-djs.png';
+import XiaYueAvatar from './assets/avatar-xiayue.png';
 import '@discord-message-components/vue/dist/style.css';
 
 export default defineClientAppEnhance(({ app }) => {
@@ -25,11 +26,17 @@ export default defineClientAppEnhance(({ app }) => {
 		avatars: {
 			haco: HacosAvatar,
 			djs: djsAvatar,
+			xiayue: XiaYueAvatar,
 		},
 		profiles: {
 			haco: {
 				author: 'MR.HACO',
 				avatar: 'haco',
+				roleColor: "white",
+			},
+			xiayue: {
+				author: 'XiaYue',
+				avatar: 'xiayue',
 				roleColor: "white",
 			},
 			djs: {
