@@ -133,6 +133,10 @@ module.exports = {
                         text: '開始寫機器人',
                         link: '/discord/bot/js/coding.html',
                       },
+                      {
+                        text: '上傳協槓指令',
+                        link: '/discord/bot/js/uploadslash.html',
+                      },
                     ],
                   },
                   {
